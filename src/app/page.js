@@ -14,7 +14,7 @@ export default function Home() {
 
             <div class="text-1">Hello, my name is</div>
             <div class="text-2">Prashant Dhawase</div>
-            <div class="text-3">And I'm a <span class="typing">
+            <div class="text-3">And I am a <span class="typing">
               <Typewriter
                 options={{
                   strings: ['Three.js Developer', 'Full stack developer'],
