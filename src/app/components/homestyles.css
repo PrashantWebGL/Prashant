@@ -1,0 +1,48 @@
+.homediv{
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.headingover{
+    
+    z-index: 2;
+    height: 600px;
+    width: 500px;
+    display: inline-block;
+    
+    /* border: 1px solid pink; */
+
+}
+.canvasbird{
+    position: absolute;
+}
+.text-1{
+    font-size: 27px;
+}
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+.homePhoto{
+    position: absolute;
+    display: inline-block;
+    z-index: 15;
+    border: 1px solid pink;
+    vertical-align: middle;
+}
+.homePhotoImage{
+    z-index: 20;
+    border-radius:30% 30% 30% 30%;
+}
