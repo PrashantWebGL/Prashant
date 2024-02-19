@@ -1,12 +1,14 @@
-.mainstyle{
+.mainstyle {
     position: relative;
 }
-.canvasbird{
+
+.canvasbird {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
-.homediv{
+
+.homediv {
     display: flex;
     position: absolute;
     justify-content: space-around;
@@ -17,42 +19,76 @@
     left: 0;
 
 }
-.shortinfo{
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .homediv {
+        margin-top: 65px;
+    }
+}
+
+.shortinfo {
     z-index: 2;
     height: 420px;
     user-select: none;
 }
-.profilepicdiv{
-    z-index: 15;
-    vertical-align: middle;
-}
-.homePhotoImage{
-    z-index: 20;
-    border-radius:30% 30% 30% 30%;
-}
-@media only screen and (max-device-width: 480px) {
-    .homePhotoImage{
-        z-index: 20;
-        border-radius:30% 30% 30% 30%;
-        width: 300px;
-        height: 300px;
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .shortinfo {
+        height: 350px;
     }
 }
 
-.text-1{
+.profilepicdiv {
+    z-index: 15;
+    vertical-align: middle;
+}
+
+.homePhotoImage {
+    z-index: 20;
+    border-radius: 30% 30% 30% 30%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .homePhotoImage {
+        border-radius: 30% 30% 30% 30%;
+        width: 275px;
+        height: 275px;
+    }
+}
+
+.text-1 {
     font-size: 27px;
 }
-.text-2{
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .text-1 {
+        font-size: 22px;
+    }
+}
+
+.text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
-.text-3{
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .text-2 {
+        font-size: 70px;
+    }
+}
+
+.text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
-.text-3 span{
+
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .text-3 {
+        font-size: 35px;
+    }
+}
+
+.text-3 span {
     color: crimson;
     font-weight: 500;
 }
-
