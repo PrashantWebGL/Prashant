@@ -1,24 +1,43 @@
-.homediv{
-    position: absolute;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-.headingover{
-    
-    z-index: 2;
-    height: 600px;
-    width: 500px;
-    display: inline-block;
-    
-    /* border: 1px solid pink; */
-
+.mainstyle{
+    position: relative;
 }
 .canvasbird{
     position: absolute;
+    top:0;
+    left:0;
 }
+.homediv{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 90px;
+    top: 0;
+    left: 0;
+
+}
+.shortinfo{
+    z-index: 2;
+    height: 420px;
+}
+.profilepicdiv{
+    z-index: 15;
+    vertical-align: middle;
+}
+.homePhotoImage{
+    z-index: 20;
+    border-radius:30% 30% 30% 30%;
+}
+@media only screen and (max-device-width: 480px) {
+    .homePhotoImage{
+        z-index: 20;
+        border-radius:30% 30% 30% 30%;
+        width: 300px;
+        height: 300px;
+    }
+}
+
 .text-1{
     font-size: 27px;
 }
@@ -35,14 +54,4 @@
     color: crimson;
     font-weight: 500;
 }
-.homePhoto{
-    position: absolute;
-    display: inline-block;
-    z-index: 15;
-    border: 1px solid pink;
-    vertical-align: middle;
-}
-.homePhotoImage{
-    z-index: 20;
-    border-radius:30% 30% 30% 30%;
-}
+

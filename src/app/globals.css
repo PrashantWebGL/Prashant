@@ -7,7 +7,7 @@ h1{
   display: flex;
 }
 .header h1{
-  width: 90%;
+  width: 120%;
   
 }
 .header nav{
@@ -74,8 +74,8 @@ h1{
   fill: #306FC5;
 }
 .mainName{
-  color: blue;
-  margin-left: 5%;
+  color: #da425f;
+  margin-left: 8%;
   z-index: 1;
 }
 .custom-shape-divider-bottom-1708257668 {
