@@ -20,6 +20,7 @@
 .shortinfo{
     z-index: 2;
     height: 420px;
+    user-select: none;
 }
 .profilepicdiv{
     z-index: 15;
