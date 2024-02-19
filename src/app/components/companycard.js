@@ -28,7 +28,7 @@ export default async function CompanyCard() {
             {
                 list.map((item, index) => (
 
-                    <section className="companycard"><h1>{item.title}</h1></section>
+                    <section className="companycard" key={index}><h1>{item.title}</h1></section>
 
                 ))
             }
