@@ -40,7 +40,7 @@ export default function ExperienceComp() {
 
                                                 {
                                                         list.map((item,index)=>(
-                                                                <MovieCard props={item}/>  
+                                                                <MovieCard props={item} key={index}/>  
                                                         ))
                                                 }
                                                
