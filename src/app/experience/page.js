@@ -18,7 +18,7 @@ export default function ExperienceComp() {
                 {
                     title: "Siemens",
                     image: "/siemens.png",
-                    duration:"2 Years 1 Months",
+                    duration:"2 Years 1 Month",
                 },
                 {
                     title: "ProtoTech Solutions",

@@ -1,0 +1,36 @@
+.about_comp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 1%;
+    margin-left: 10%;
+    width: 86%;
+}
+.about_pic{
+    position: relative;
+    display: flexbox;
+   
+}
+.about_pic img{
+    height: 100%;
+    width: 100%;
+}
+.about_info_text{
+    position: relative;
+    word-wrap: break-word;
+    display: flexbox;
+    width: 45%;
+}
+@media only screen and (min-width: 360px) and (max-width: 800px) {
+    .about_info_text{
+        width: 100%;
+    }
+}
+
+.about_info_text h3{
+    width: 100%;
+}
+.about_logo{
+    padding: 5px;
+}
