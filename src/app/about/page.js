@@ -1,6 +1,8 @@
 import Image from "next/image"
 import styles from "@/app/styles/about.module.css"
-import { Griffy } from "next/font/google"
+import { MdEmail } from "react-icons/md";
+import { FaPhone } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import Link from "next/link"
 
 export default function AboutComp() {
@@ -20,6 +22,10 @@ export default function AboutComp() {
                                         <Image src={"/cricket1.gif"} alt={"This is about gif"} width={40} height={30}></Image></h3>
 
                                 <h3>I am currently based in Seoul, South Korea. Do contact me !! </h3>
+                                
+                                <h3><a href="mailto:prashant.dh.12@gmail.com" target="_blank">  <MdEmail /> prashant.dh.12@gmail.com </a></h3>
+                                <h3><FaWhatsapp /> +91 90 9695 7263</h3>
+                                <h3><FaPhone /> +82 10 8309 7263</h3>
 
                                 <Link href="https://www.linkedin.com/in/prashantdh/" target="_blank" >
                                         <Image src={"/linkedin.png"} alt={"This is about gif"} width={32} height={32} className={styles.about_logo}></Image>
