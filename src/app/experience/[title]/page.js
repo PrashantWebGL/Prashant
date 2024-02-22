@@ -93,12 +93,13 @@ export default function CompanyInfo({ params }) {
             <br />
             <div>
             {
-                projectData.map((item) => (
-                    <div>
+                projectData.map((item,index) => (
+                    <div key={index}>
                         <h2 className={styles.project_data_heading} >{item.title} </h2>
                         <h3>{item.description}</h3>
-                        <br />
+                        
                         <h3>TechStack : {item.techstack}</h3>
+                        <br />
                     </div>
                 ))
             }
