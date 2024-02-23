@@ -11,7 +11,7 @@ export default function ExperienceComp() {
                     duration:"8 Months",
                 },
                 {
-                    title: "Dassault Systems",
+                    title: "Dassault Systemes",
                     image: "/3ds.png",
                     duration:"3 Years 6 Months",
                 },

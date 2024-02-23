@@ -6,7 +6,7 @@ export default async function CompanyCard() {
             title: "Wondevari"
         },
         {
-            title: "Dassault Systems"
+            title: "Dassault Systemes"
         },
         {
             title: "Siemens"
