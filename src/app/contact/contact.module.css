@@ -72,10 +72,11 @@
 }
 
 .contact_form{
+    width:50%;
     max-width: 48rem;
-    min-width: 32rem;
-    border: 1px dotted red;
-    padding: 1.2rem;
+    min-width: 8rem;
+    
+    padding: 2.2rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     text-align: left;
 }

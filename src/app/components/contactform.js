@@ -64,7 +64,7 @@ const ContactForm = () => {
         <form className={styles.contact_form} onSubmit={handleSubmit}>
             <div className={styles.input_field}>
                 <label htmlFor="username" className={styles.label}>
-                    Enter your name
+                    Name
                     <input type="text" name="username" id="username"
                         placeholder="Enter your name"
                            className={mulish.className}
@@ -91,7 +91,7 @@ const ContactForm = () => {
 
             <div className={styles.input_field}>
                 <label htmlFor="phone" className={styles.label}>
-                    Phone Number
+                    Phone
                     <input type="number" name="phone" id="phone"
                            placeholder="Enter your phone"
                            className={mulish.className}
