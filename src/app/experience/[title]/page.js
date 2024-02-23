@@ -16,7 +16,7 @@ export default function CompanyInfo({ params }) {
             ],
         },
         {
-            title: "Dassault Systems",
+            title: "Dassault Systemes",
             project: [
                 {
                     title: "eDrawings Desktop",
