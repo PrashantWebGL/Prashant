@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         </header>
         <div>
           {children}
+          <SpeedInsights />
         </div>
         <footer class="footer">
           <div class="custom-shape-divider-bottom-1708257668">
