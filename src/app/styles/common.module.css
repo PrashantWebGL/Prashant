@@ -36,6 +36,7 @@
 .card_link{
     text-decoration: none;
     color: black;
+    min-width: 152px;
 }
 .card_section {
     width: 100%;
@@ -43,7 +44,6 @@
     gap: 1.8rem;
     justify-content: space-between;
     align-items: center;
-    /*background-color: #90caf9;*/
     flex-wrap: wrap;
 }
 
@@ -176,4 +176,12 @@
 
 .project_data_heading{
     background-color: #85b6e2;
+    margin-top: 0px;
+}
+.projectinfo{
+    color: #4c4a37; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 2px;
 }

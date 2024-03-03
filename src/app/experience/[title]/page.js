@@ -43,7 +43,7 @@ export default function CompanyInfo({ params }) {
             project: [
                 {
                     title: "Visualization component for Post hub",
-                    description: "Converted GWT based application to three.js/angular based which are the latest technologies. Made changes in core files like obitcontrols.js and three.js and shaders. Added functionalities like mouse directed zoom, Model rotation using quaternion, custom pan function which will preserve rotation center which was not provided by three.js.",
+                    description: "Converted GWT based application to threejs/angular based which are the latest technologies. Made changes in core files like obitcontrolsjs and threejs and shaders. Added functionalities like mouse directed zoom, Model rotation using quaternion, custom pan function which will preserve rotation center which was not provided by threejs.",
                     link: "https://hummit.co/en",
                     techstack: [" three.js ", " Angularjs ", " JavaScript ", " Java ", " CAD ", " Maven ", " Rest ", " C# ", " CSS "],
                 },
@@ -92,17 +92,23 @@ export default function CompanyInfo({ params }) {
             <h1>{data.title}</h1>
             <br />
             <div>
-            {
-                projectData.map((item,index) => (
-                    <div key={index}>
-                        <h2 className={styles.project_data_heading} >{item.title} </h2>
-                        <h3>{item.description}</h3>
-                        
-                        <h3>TechStack : {item.techstack}</h3>
-                        <br />
-                    </div>
-                ))
-            }
+                {
+                    projectData.map((item, index) => (
+                        <div key={index}>
+                            <h2 className={styles.project_data_heading} >{item.title} </h2>
+                            <h3>{
+                                
+                                item.description.match(/\(?[^\.\?\!]+[\.!\?]\)?/g).map((line,descindex)=>(
+                                        <li className={styles.projectinfo} key={descindex}>{line}</li>
+                                ))
+                                
+                            }</h3>
+
+                            <h3 className={styles.projectinfo} >TechStack : {item.techstack}</h3>
+                            <br />
+                        </div>
+                    ))
+                }
             </div>
 
             {/* <iframe
