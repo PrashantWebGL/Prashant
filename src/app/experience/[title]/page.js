@@ -19,20 +19,20 @@ export default function CompanyInfo({ params }) {
             title: "Dassault Systemes",
             project: [
                 {
-                    title: "eDrawings Desktop",
-                    description: "This Application is free and has more than 6 million user base. CPP based code to display SolidWorks geometries for user. Evolved in developing new features and solved many user bugs",
-                    link: "https://hummit.co/en",
+                    title: "eDrawings Viewer",
+                    description: "This is a free tool that allows you to view and interact with 3D models. Edrawing is used to view, manipulate 3D and 2D Models, User can measure dimanesions comment, markup and share model. Participated in developing new features and solving user bugs. ",
+                    link: "https://www.edrawingsviewer.com/download-edrawings",
                     techstack: [" CPP ", " C# ", " WPF ", " CAD "],
                 },
                 {
                     title: "SLDDRW to UDL converter",
-                    description: "This converts SLDDRW, SLDPRT and SLDASM to the 3d experience platform on the web. The main work is reading SLD files using SolidWorks APIs converting it to .cga file to UDL files. Worked on Windows and Linux CPP.",
+                    description: "This converts SLDDRW, SLDPRT and SLDASM to the 3d experience platform on the web. The main work is reading SLD files using SolidWorks APIs converting it to cga file to UDL files. Worked on Windows and Linux CPP.",
                     link: "https://hummit.co/en",
                     techstack: [" CPP ", " Linux ",],
                 },
                 {
                     title: "SolidWorks Sell",
-                    description: "SolidWorks SELL is a three.js based online product configurator. Worked as a Full stack / MEAN stack application developer. Added features like custom light in graphics scene and solved bugs for this project",
+                    description: "SolidWorks SELL is a threejs based online product configurator. Worked as a Full stack / MEAN stack application developer. Added features like custom light in graphics scene and solved bugs for this project",
                     link: "https://hummit.co/en",
                     techstack: [" Angular ", " three.js ", " js ", " Express ", " CAD ", " Node "],
                 },
