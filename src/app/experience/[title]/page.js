@@ -20,7 +20,7 @@ export default function CompanyInfo({ params }) {
             project: [
                 {
                     title: "eDrawings Viewer",
-                    description: "This is a free tool that allows you to view and interact with 3D models. Edrawing is used to view, manipulate 3D and 2D Models, User can measure dimanesions comment, markup and share model. Participated in developing new features and solving user bugs. ",
+                    description: "This is a free tool that allows user to view and interact with 3D models. Edrawing is used to view, manipulate 3D and 2D Models, User can measure dimensions, comment, markup and share model. Participated in developing new features and solving user bugs. ",
                     link: "https://www.edrawingsviewer.com/download-edrawings",
                     techstack: [" CPP ", " C# ", " WPF ", " CAD "],
                 },
