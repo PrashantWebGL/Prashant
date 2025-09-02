@@ -5,6 +5,17 @@ export default function CompanyInfo({ params }) {
     //console.log(params);
     const projectInfo = [
         {
+            title: "AccionLabs",
+            project: [
+                {
+                    title: "Developed solution for displaying engineering analysis of car crash data using 3D Model",
+                    description: "Developed a viewer to show dummy used in car crash. 3D-Dummy shown on cavas to represent data and values with respect to time. Added addition geometrical objects to display data in canvas. Innovative way to represnt data using 3D Viewer.",
+                    link: "https://www.accionlabs.com/",
+                    techstack: [" three.js ", " Angular ", " JavaScript ", " HTML5 ", " CAD "],
+                },
+            ],
+        },
+        {
             title: "Wondevari",
             project: [
                 {

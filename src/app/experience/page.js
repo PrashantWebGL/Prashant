@@ -6,6 +6,11 @@ export default function ExperienceComp() {
 
         const list = [
                 {
+                    title: "AccionLabs",
+                    image: "/Accion.svg",
+                    duration:"1 year 6 Months",
+                },
+                {
                     title: "Wondevari",
                     image: "/wondervari.png",
                     duration:"8 Months",
@@ -14,7 +19,7 @@ export default function ExperienceComp() {
                     title: "Dassault Systemes",
                     image: "/3ds.png",
                     duration:"3 Years 6 Months",
-                },
+                }, 
                 {
                     title: "Siemens",
                     image: "/siemens.png",
