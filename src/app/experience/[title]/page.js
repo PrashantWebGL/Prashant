@@ -115,7 +115,7 @@ export default function CompanyInfo({ params }) {
                                 
                             }</h3>
 
-                            <h3 className={styles.projectinfo} >TechStack : {item.techstack}</h3>
+                            <h3 className={styles.projectinfo} >TechStack : {item.techstack + ","}</h3>
                             <br />
                         </div>
                     ))
