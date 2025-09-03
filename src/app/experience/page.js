@@ -11,7 +11,7 @@ export default function ExperienceComp() {
                     duration:"1 year 6 Months",
                 },
                 {
-                    title: "Wondevari",
+                    title: "Wondervari",
                     image: "/wondervari.png",
                     duration:"8 Months",
                 },

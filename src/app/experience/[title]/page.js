@@ -16,7 +16,7 @@ export default function CompanyInfo({ params }) {
             ],
         },
         {
-            title: "Wondevari",
+            title: "Wondervari",
             project: [
                 {
                     title: "Hummit-Marketplace for 3D models",
