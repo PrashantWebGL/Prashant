@@ -43,7 +43,7 @@ export default function CompanyInfo({ params }) {
                 },
                 {
                     title: "SolidWorks Sell",
-                    description: "SolidWorks SELL is a threejs based online product configurator. Worked as a Full stack / MEAN stack application developer. Added features like custom light in graphics scene and solved bugs for this project",
+                    description: "SolidWorks SELL is a three.js based online product configurator. Worked as a Full stack / MEAN stack application developer. Added features like custom light in graphics scene and solved bugs for this project",
                     link: "https://hummit.co/en",
                     techstack: [" Angular ", " three.js ", " js ", " Express ", " CAD ", " Node "],
                 },
@@ -54,7 +54,7 @@ export default function CompanyInfo({ params }) {
             project: [
                 {
                     title: "Visualization component for Post hub",
-                    description: "Converted GWT based application to threejs/angular based which are the latest technologies. Made changes in core files like obitcontrolsjs and threejs and shaders. Added functionalities like mouse directed zoom, Model rotation using quaternion, custom pan function which will preserve rotation center which was not provided by threejs.",
+                    description: "Converted GWT based application to three.js/angular based which are the latest technologies. Made changes in core files like obitcontrolsjs and three.js and shaders. Added functionalities like mouse directed zoom, Model rotation using quaternion, custom pan function which will preserve rotation center which was not provided by three.js",
                     link: "https://hummit.co/en",
                     techstack: [" three.js ", " Angularjs ", " JavaScript ", " Java ", " CAD ", " Maven ", " Rest ", " C# ", " CSS "],
                 },
