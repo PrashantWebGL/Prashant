@@ -31,7 +31,7 @@ export default function Home() {
 
           </div>
           <div className='profilepicdiv'>
-            <Image src={"/skype.png"} height={450} width={450} alt="Title Photo Prashant" className='homePhotoImage' ></Image>
+            <Image src={"/skype.png"} loading='lazy' decoding="async" height={450} width={450} alt="Title Photo Prashant" className='homePhotoImage' ></Image>
                 
           </div>
 
