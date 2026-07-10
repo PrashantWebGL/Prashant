@@ -1,8 +1,12 @@
 "use client"
+import dynamic from "next/dynamic";
 import '@/app/components/homestyles.css'
-import BirdsPage from "./birds/page";
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
+
+const BirdsPage = dynamic(() => import("./components/birds-canvas"), {
+  ssr: false,
+});
 
 export default function Home() {
   return (

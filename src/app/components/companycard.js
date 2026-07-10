@@ -3,6 +3,9 @@ import "@/app/components/companycard.css"
 export default async function CompanyCard() {
     const list = [
         {
+            title: "AccionLabs"
+        },
+        {
             title: "Wondervari"
         },
         {
