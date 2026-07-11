@@ -3,6 +3,9 @@ import "@/app/components/companycard.css"
 export default async function CompanyCard() {
     const list = [
         {
+            title: "Cyncly"
+        },
+        {
             title: "AccionLabs"
         },
         {
@@ -31,7 +34,11 @@ export default async function CompanyCard() {
             {
                 list.map((item, index) => (
 
-                    <section className="companycard" key={index}><h1>{item.title}</h1></section>
+                    <section className="companycard" key={index}>
+                        {item.logo && <img className="companycard-logo" src={item.logo} alt={`${item.title} logo`} />}
+                        <h1>{item.title}</h1>
+                        {item.bio && <p className="companycard-bio">{item.bio}</p>}
+                    </section>
 
                 ))
             }

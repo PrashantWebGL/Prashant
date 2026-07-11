@@ -5,6 +5,17 @@ export default function CompanyInfo({ params }) {
     //console.log(params);
     const projectInfo = [
         {
+            title: "Cyncly",
+            project: [
+                {
+                    title: "Interior Designer Software",
+                    description: "Interior Designer Software. ",
+                    link: "https://www.Cyncly.com/",
+                    techstack: [" C++ ",  " JavaScript ", " MFC ", " CAD "],
+                },
+            ],
+        },
+        {
             title: "AccionLabs",
             project: [
                 {
