@@ -15,7 +15,7 @@ export default function AboutComp() {
                         <div className={styles.about_info_text}>
                                 <h1> About Me, </h1>
                                 <h3>If you guessed it right! Yes, The birds flying in home page at the background are 3D birds and they are rendereed using three.js</h3>
-                                <h3>I never stop bragging about how cool 3D model rendering is! It lets you think in three dimensional, it is challenging and you need to control camera, lights,action just like a Movie </h3>
+                                <h3>I never stop bragging about how cool 3D model rendering is! It lets you think in three dimensional, it is challenging and you need to control lights,camera, action just like a Movie </h3>
                                 <h3>When I am not coding at home, you might find me cooking some amazing dishes in kitchen. I personally believe adding artistic personal touch is so satisfying while exhibiting work.
                                         <Image src={"/cooking.gif"} alt={"This is about gif"} width={40} height={30}></Image></h3>
                                 <h3>Like most of the Indians, I love cricket.
