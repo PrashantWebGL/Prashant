@@ -7,7 +7,7 @@ export default function ExperienceComp() {
         const list = [
                 {
                     title: "Cyncly",
-                    image: "/Cyncly.png",
+                    image: "/cyncly.png",
                     duration:"3 Months",
                 },
                 {
