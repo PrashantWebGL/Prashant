@@ -8,12 +8,12 @@ export default function ExperienceComp() {
                 {
                     title: "Cyncly",
                     image: "/cyncly.png",
-                    duration:"3 Months",
+                    duration:"2 Months",
                 },
                 {
                     title: "AccionLabs",
                     image: "/Accion.svg",
-                    duration:"1 year 6 Months",
+                    duration:"2 years 2 Months",
                 },
                 {
                     title: "Wondervari",
